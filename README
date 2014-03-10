@@ -1,0 +1,6 @@
+Based on this comic: http://xkcd.com/1263/
+
+1.0:
+- Makes basic "computers will never [verb] a [noun]". 
+- pos_tokeniser.py trimmed down a list of 30,000 verbs to a list of 9600 using nltk
+- Needs grammar recognition
