@@ -2,6 +2,11 @@ Based on this comic: http://xkcd.com/1263/ & released under the MIT Licence.
 
 pos_tokeniser.py is included for reference, pruned list of 30,000 verbs to 9600 based on tense.
 
+Requires NLTK and the punkt corpus:
+$ sudo pip install nltk
+>>> import nltk
+>>> nltk.download(punkt)
+
 TODO:
 - Replace flat text files with database
 - Fix control flow to speed up parsing
